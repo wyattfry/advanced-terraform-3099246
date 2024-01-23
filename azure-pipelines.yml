@@ -22,6 +22,6 @@ jobs:
           inputs:
             action: deploy
             manifests: |
-              $(Pipeline.Workspace)/deployment.yml
+              $(Pipeline.Workspace)/deployment.yaml
 
 
